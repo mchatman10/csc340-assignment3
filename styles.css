@@ -1,0 +1,99 @@
+body {
+    gap: 20px;
+    background-image: url("images/background.png");
+    backdrop-filter: blur(10px);
+    background-size: cover;
+}
+
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+
+.filters a {
+    margin: 5px;
+    padding: 8px 12px;
+    background: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.card img {
+    width: 120px;
+}
+
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #e60012;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.details,
+.about,
+.form-container {
+    max-width: 700px;
+    margin: auto;
+    padding: 30px;
+}
+
+
+.details img,
+.about img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+
+form input,
+form textarea,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+
+button {
+    margin-top: 20px;
+    background-color: #e60012;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
