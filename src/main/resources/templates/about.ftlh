@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
 </head>
 
 <body>
@@ -21,14 +22,16 @@
 
     <main class="about">
         <h1>About This Site</h1>
-        <img src="images\super-mario.png" alt="Mario World">
+        <img src="\images\super-mario.png" alt="Mario World">
         <p>
-            This website was created to showcase some of my favorite and most iconic Mario characters and to give more of a peak into the Mario
+            This website was created to showcase some of my favorite and most iconic Mario characters and to give more
+            of a peak into the Mario
             universe.
         </p>
         <p>
             I picked Mario characters because I grew up with Mario games, and all of these Mario characters are in Super
-            Smash Bros. Ultimate, which is a game that I play a lot. I mostly kept the styling simple, with some basic cards, but also added a blurred
+            Smash Bros. Ultimate, which is a game that I play a lot. I mostly kept the styling simple, with some basic
+            cards, but also added a blurred
             background image to make the site stand out a bit more.
         </p>
     </main>
